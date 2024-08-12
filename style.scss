@@ -41,7 +41,7 @@ p {
   padding: 15px;
   border-radius: 15px;
   background-color: $white-color;
-  max-width: 280px;
+  max-width: 287px;
   @include box-shadow;
 }
 
@@ -57,16 +57,16 @@ p {
 .card__body {
   text-align: center;
   margin: auto;
-  padding: 20px 25px 0;
+  padding: 20px 0 0;
 
   span {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 700;
     filter: blur(0.4px);
     color: $title-color;
   }
   p {
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: $text;
     filter: blur(0.4px);
   }
